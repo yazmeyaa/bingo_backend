@@ -1,0 +1,39 @@
+{
+  "name": "bingo_api",
+  "version": "1.0.0",
+  "description": "REST API server for my frontend app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "npx nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazmeyaa/bingo_backend.git"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "author": "Evgeniy Antonenkov <evgenijantonenkov456@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yazmeyaa/bingo_backend/issues"
+  },
+  "homepage": "https://github.com/yazmeyaa/bingo_backend#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.11.9",
+    "@types/redis": "^4.0.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "redis": "^4.5.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths-webpack-plugin": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14"
+  }
+}
